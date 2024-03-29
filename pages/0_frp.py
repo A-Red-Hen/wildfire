@@ -20,7 +20,7 @@ def create_plotly_map(date: str) -> None:
                            color_continuous_scale="Viridis",
                            range_color=(0, 1),
                            scope="usa",
-                           labels={'frp':'FirePower'}
+                           labels={'frp':'FirePower', 'FIPS': 'Tract'}
                           )
     fig.update_layout(margin={"r":0,"t":0,"l":0,"b":0}) 
     # set the plot
