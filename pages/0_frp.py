@@ -16,6 +16,9 @@ def create_plotly_map(date: str) -> None:
     # csv_filename = date + "_final_merged.csv"
     # csv = pd.read_csv(csv_filename)
     merged_geo_data = gpd.read_file(file_name)
+    merged_geo_data["COUNTY"] = merged_geo_data["COUNTY"].str.strip()
+    merged_geo_data.drop_duplicates(subset=['Polygon_ID'], inplace = True)
+    merged_geo_data.drop_duplicates(subset=['geometry'], inplace = True)
     fig = px.choropleth(merged_geo_data, geojson=merged_geo_data.geometry, locations= merged_geo_data.index, color=merged_geo_data.frp,
                            color_continuous_scale="Viridis",
                            range_color=(0, 1),
