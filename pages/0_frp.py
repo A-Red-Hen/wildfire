@@ -43,7 +43,7 @@ def create_plotly_map_1(date: str) -> None:
     fig.update_layout(margin={"r":0,"t":0,"l":0,"b":0}) 
     # set the plot
     # heading
-    st.subheader(f"Firepower on {date} across USA")
+    st.subheader(f"Combined vulnerability on {date} across USA")
     st.plotly_chart(fig)
 
 st.title("Map Visualizations")
