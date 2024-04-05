@@ -89,5 +89,6 @@ elif date == DATE_FIVE:
     st.markdown("Tracts in darker reds have high combined vulnerability, i.e., they have both high wildfire risk AND are highly socially vulnerable. Fire managers can use this map as an assistive tool to determine areas requiring urgent support with special accommodations needed for those communities, during wildfire disasters across the USA. Some examples of Special accommodations include evacuation warnings in native language for non-English speaking communities and special assistance to evacuate communities with high disabled population.")
 
 st.text_area(
+    "",
     "This prototype obtains predictions from the AI model, processes and displays the maps for a few sample tracts and for few sample dates only, in order to have a short run time for user. In these maps, in order to populate all the ~80,000 census tracts across the USA takes very long run times. Instantaneous visualizations across ~80,000 census tracts across the USA requires very large processing power, for which funding is required",
     )
