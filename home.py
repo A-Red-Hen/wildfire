@@ -7,4 +7,4 @@ st.image(image_address, caption="<caption>")
 
 
 st.divider()
-st.text("Climate change has worsened wildfire activity in recent years. Did you know there have been around 70,000 fire incidents and 7 million acres burned every year in the USA ? Also wildfires unfairly affect disadvantaged communities, like those with high poverty levels or a high percentage of disabled population. So it is critical not only to model wildfire spread accurately, but also to identify socially vulnerable areas that have a high risk for wildfire for creating equitable communities. &lt;Project name&gt; does exactly that.")
+st.markdown("Climate change has worsened wildfire activity in recent years. Did you know there have been around 70,000 fire incidents and 7 million acres burned every year in the USA ? Also wildfires unfairly affect disadvantaged communities, like those with high poverty levels or a high percentage of disabled population. So it is critical not only to model wildfire spread accurately, but also to identify socially vulnerable areas that have a high risk for wildfire for creating equitable communities. &lt;Project name&gt; does exactly that.")
