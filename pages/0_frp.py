@@ -41,7 +41,7 @@ def create_plotly_map_1(date: str) -> None:
                            range_color=(0, 2),
                            scope="usa",
                            labels={'frp':'FirePower'},
-                           
+                           hover_data={'COUNTY': True, 'FIPS': True}
                           )
     fig.update_layout(margin={"r":0,"t":0,"l":0,"b":0}) 
     # set the plot
