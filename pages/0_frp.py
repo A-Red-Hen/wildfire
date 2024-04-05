@@ -91,4 +91,5 @@ elif date == DATE_FIVE:
 st.text_area(
     "",
     "This prototype obtains predictions from the AI model, processes and displays the maps for a few sample tracts and for few sample dates only, in order to have a short run time for user. In these maps, in order to populate all the ~80,000 census tracts across the USA takes very long run times. Instantaneous visualizations across ~80,000 census tracts across the USA requires very large processing power, for which funding is required",
+    height=500,
     )
