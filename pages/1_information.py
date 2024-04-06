@@ -14,7 +14,12 @@ st.image(img1, caption="<caption>")
 
 st.header('Combined Vulnerability')
 st.markdown('Combined Vulnerability is defined in the context of a community’s exposure to wildfire hazard along with its ability to withstand the impact of the wildfire at the census tract level.')
-#image
+
+img2 = "img2.png"
+st.image(img2, caption="<caption>")
+
 st.markdown('CV tract will range from 0.0 to 2.0, where tracts that have the highest combined vulnerability have values closer to 2.0.')
 st.markdown('Fire managers can use this score as an assistive metric to determine areas requiring urgent support with special accommodations needed for those communities, during wildfire disasters across the USA.')
-#image
+
+img3 = "img3.png"
+st.image(img3, caption="<caption>")
