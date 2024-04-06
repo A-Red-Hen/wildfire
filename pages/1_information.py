@@ -9,7 +9,8 @@ st.markdown('The AI model predicts the wildfire intensity based on meteorologica
 st.header('Social Vulnerability')
 st.markdown('**Social Vulnerability** shows the extent to which a community has social conditions, e.g. high poverty, high percentage of disabled population or low transportation access. These conditions may affect the community’s ability to prevent human suffering (mortality, not being able to recover from financial loss, losing their homes, getting displaced from the community) during disaster events.')
 st.markdown('The social vulnerability data for &lt;project name&gt; was obtained from the Centers for Disease Control and Prevention’s CDC SVI Database, which ranks all the ~80,000 census tracts across the USA based on their social vulnerability index (SVI). SVI is calculated for each census tract based on the 15 factors shown in below picture. The SVI value for each tract will be a real number in the range of 0.0 to 1.0, with the least socially vulnerable tracts having a value of 0.0 and the most socially vulnerable tracts having a value of 1.0.')
-# image????
+img1 = "/workspaces/wildfire/Screenshot 2024-04-05 at 8.05.06 PM.png"
+st.image(img1, caption="<caption>")
 
 st.header('Combined Vulnerability')
 st.markdown('Combined Vulnerability is defined in the context of a community’s exposure to wildfire hazard along with its ability to withstand the impact of the wildfire at the census tract level.')
