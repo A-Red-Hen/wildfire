@@ -4,8 +4,8 @@ st.title('Additional Resources')
 
 st.header('Project Videos')
 st.markdown("**Technovation Girls 2024 Project Videos**")
-st.markdown("Pitch Video: %s" % "https://www.youtube.com/")
-st.markdown("Demo Video: %s" % "https://www.youtube.com/")
+st.markdown("Pitch Video: %s" % "https://youtu.be/CDgDIT0llpM")
+st.markdown("Demo Video: %s" % "https://youtu.be/Im4Lpc6iiSM")
 
 st.header('Dataset Sources')
 st.markdown("1. %s" % "https://zenodo.org/records/5636429")
